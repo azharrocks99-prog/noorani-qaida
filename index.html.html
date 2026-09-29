@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>نورانی قاعدہ – Noorani Qaida</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fffdf3;--card:#ffffff;--ink:#1f2a1f;--mute:#5c6a5c;--green:#2e7d32;--red:#b71c1c;--gold:#c9a227;--line:#e6dfb8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a12;--card:#1b261b;--ink:#eef3e6;--mute:#a9b8a5;--green:#66bb6a;--red:#ef7a7a;--gold:#e0bd48;--line:#2f3d2f}}
+:root[data-theme="dark"]{--bg:#121a12;--card:#1b261b;--ink:#eef3e6;--mute:#a9b8a5;--green:#66bb6a;--red:#ef7a7a;--gold:#e0bd48;--line:#2f3d2f}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Nastaliq Urdu","Noto Naskh Arabic",Tahoma,serif;line-height:2.1}
+.ar{font-family:"Amiri","Traditional Arabic",serif}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--green);color:#fff;z-index:5;display:flex;gap:14px;justify-content:center;flex-wrap:wrap;padding:6px 10px}
+header a{color:#fff;text-decoration:none;font-size:.95rem;padding:2px 8px}
+.hero{text-align:center;padding:44px 18px 34px;border-bottom:4px double var(--gold)}
+.hero .ayah{color:var(--green);font-size:1.5rem}
+.hero h1{margin:6px 0;font-size:clamp(2.4rem,9vw,4rem);color:var(--red);line-height:1.6}
+.hero p{margin:0 auto 18px;max-width:560px;color:var(--mute)}
+.btn{display:inline-block;background:var(--green);color:#fff;padding:6px 22px;border-radius:30px;text-decoration:none;font-weight:700}
+.btn.wa{background:#25d366;color:#083}
+section{max-width:940px;margin:0 auto;padding:30px 16px}
+h2{color:var(--red);border-bottom:2px solid var(--gold);display:inline-block;margin:0 0 14px;font-size:1.5rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px;direction:rtl}
+.grid div{background:var(--card);border:1px solid var(--line);border-radius:10px;text-align:center;font-size:2.3rem;line-height:1.7;padding:2px 0;cursor:pointer;transition:.15s}
+.grid div:hover{transform:scale(1.08);border-color:var(--green)}
+.grid small{display:block;font-size:.7rem;color:var(--mute);line-height:1.3;padding-bottom:4px;font-family:sans-serif}
+.c1{color:#1f2a1f}.c2{color:var(--green)}.c3{color:var(--red)}.c4{color:#5c6bc0}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:8px 0;padding:2px 14px}
+summary{cursor:pointer;font-weight:700;color:var(--green)}
+summary span{display:inline-block;background:var(--red);color:#fff;border-radius:50%;width:2em;height:2em;line-height:2em;text-align:center;font-size:.8rem;margin-left:8px}
+details p{margin:4px 0 10px;color:var(--mute)}
+.ex{font-size:2rem;color:var(--red);letter-spacing:6px;text-align:center}
+.wide{overflow-x:auto}
+.contact{background:var(--card);border:1px solid var(--gold);border-radius:16px;text-align:center;padding:22px}
+.contact h3{margin:0;color:var(--green);font-size:1.4rem}
+.contact .num{direction:ltr;font-family:sans-serif;font-size:1.2rem;margin:6px 0 12px}
+footer{text-align:center;color:var(--mute);padding:18px;font-size:.85rem;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header><a href="#home">ہوم</a><a href="#letters">حروف</a><a href="#harakat">حرکات</a><a href="#lessons">تختیاں</a><a href="#contact">رابطہ</a></header>
+
+<div class="hero" id="home">
+<div class="ayah ar">إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَالَمِينَ</div>
+<div style="color:var(--gold)">رنگین تجویدی</div>
+<h1>نورانی قاعدہ</h1>
+<p>قرآنِ مجید پڑھنا سیکھنے کا آسان، رنگین اور مرحلہ وار قاعدہ — بچوں اور بڑوں کے لیے۔</p>
+<a class="btn" href="#lessons">سبق شروع کریں</a>
+</div>
+
+<section id="letters">
+<h2>تختی نمبر 1 – مفردات</h2>
+<p>حروفِ مفردات بنیاد ہیں۔ ہر حرف کا تلفظ درست کروائیں اور حروف کے نقطے بھی یاد کروائیں۔ حرف پر کلک کر کے نام دیکھیں۔</p>
+<div class="grid ar" id="lg"></div>
+<p id="lname" style="text-align:center;font-weight:700;color:var(--green)"></p>
+</section>
+
+<section id="harakat">
+<h2>تختی نمبر 4 – حرکات</h2>
+<p>زبر (اوپر)، زیر (نیچے) اور پیش (اُلٹا پیش) حرف پر لگا کر پڑھائیں۔ حرکات کو کھینچ کر نہ پڑھیں۔</p>
+<div class="grid ar" style="grid-template-columns:repeat(3,1fr);max-width:360px">
+<div class="c3">اَ<small>زبر</small></div><div class="c2">اِ<small>زیر</small></div><div class="c4">اُ<small>پیش</small></div>
+<div class="c3">بَ<small>بَ</small></div><div class="c2">بِ<small>بِ</small></div><div class="c4">بُ<small>بُ</small></div>
+<div class="c3">تً<small>دو زبر</small></div><div class="c2">تٍ<small>دو زیر</small></div><div class="c4">تٌ<small>دو پیش</small></div>
+</div>
+</section>
+
+<section id="lessons">
+<h2>تمام تختیاں</h2>
+<div id="ls"></div>
+</section>
+
+<section id="contact">
+<h2>رابطہ</h2>
+<div class="contact">
+<h3>حافظ اظہر محمود خان</h3>
+<div class="num">+92 308 7907990</div>
+<a class="btn wa" href="https://wa.me/923087907990" target="_blank" rel="noopener">واٹس ایپ پر رابطہ کریں</a>
+</div>
+</section>
+
+<footer>© نورانی قاعدہ – حافظ اظہر محمود خان &nbsp;|&nbsp; ماخذ: ادارہ سعادت، لاہور</footer>
+
+<script>
+var L=[["ا","الف"],["ب","با"],["ت","تا"],["ث","ثا"],["ج","جیم"],["ح","حا"],["خ","خا"],["د","دال"],["ذ","ذال"],["ر","را"],["ز","زا"],["س","سین"],["ش","شین"],["ص","صاد"],["ض","ضاد"],["ط","طا"],["ظ","ظا"],["ع","عین"],["غ","غین"],["ف","فا"],["ق","قاف"],["ک","کاف"],["ل","لام"],["م","میم"],["ن","نون"],["و","واو"],["ہ","ہا"],["ء","ہمزہ"],["ی","یا"]];
+var g=document.getElementById("lg"),cls=["c1","c2","c3","c4"];
+L.forEach(function(x,i){var d=document.createElement("div");d.className=cls[i%4];d.innerHTML=x[0]+"<small>"+x[1]+"</small>";d.onclick=function(){document.getElementById("lname").textContent=x[0]+" ← "+x[1]};g.appendChild(d)});
+var T=[
+["مفردات","الگ الگ حروف پہچانیں، ان کا تلفظ اور نقطے یاد کریں۔","ا ب ت ث ج ح"],
+["مرکبات","ملے ہوئے حروف کو ایک ایک کر کے پہچانیں۔ ایک جیسی شکل والے حروف نقطوں سے پہچانیں۔","بلب  بکت  نس  تس"],
+["حروفِ مقطعات","سورتوں کے شروع کے حروف، انہیں یاد کرانا باعثِ برکت ہے۔","الم  یس  حم  عسق"],
+["حرکات","زبر، زیر اور پیش کی پہچان اور مشق۔","اَ اِ اُ  بَ بِ بُ"],
+["تنوین","دو زبر، دو زیر، دو پیش، اور غنہ کی مشق۔","بً بٍ بٌ"],
+["مشق حرکات و تنوین","حرکات اور تنوین کے ساتھ حروف کو ملا کر پڑھنے کی مشق۔","اَحَدٌ  جَعَلَ  خَلَقَ"],
+["کھڑی زبر، کھڑی زیر، اُلٹا پیش","ایک الف کی مقدار کھینچ کر پڑھیں۔","بٰ بٖ بٗ"],
+["مدّہ و لین","حروفِ مدّہ (ا، و، ی) اور حروفِ لین کی پہچان۔","بَا  بُوْا  بِیْ"],
+["مشق حرکات (مد و لین و تنوین)","مدّ کے قاعدے: مدِ متصل، منفصل، لازم اور عارضی۔","جَآءَ  اِنَّآ اَنْزَلْنَا"],
+["سکون یعنی جزم","ساکن حرف ایک ہی مرتبہ پڑھا جاتا ہے۔","اَبْ  اِبْ  اُبْ"],
+["مشق سکون","سکون والے الفاظ اور علاماتِ وقف کی مشق۔","اَنْتَ  بَعْدُ  سَعْیَ"],
+["تشدید","تشدید والا حرف دو مرتبہ پڑھا جاتا ہے۔","اَبَّ  اِبِّ  اُبُّ"],
+["مشقِ تشدید","نون اور میم مشدد میں ہمیشہ غنہ ہوتا ہے۔","قَدَّرَ  صَدَّقَ"],
+["مشقِ تشدید مع سکون","تشدید اور سکون کو ملا کر پڑھنے کی مشق۔","حُقَّتْ  خَفَّتْ"],
+["تشدید مع تشدید","ایک ساتھ آنے والی تشدیدوں کی مشق۔","اَلنَّاسِ  اَلضَّآلِّینَ"],
+["تشدید بعد حروفِ مدّہ","حروفِ مدّہ کے بعد تشدید کی مشق۔","ضَآلِّینَ  دَآبَّةٍ"]
+];
+var s=document.getElementById("ls");
+T.forEach(function(t,i){var d=document.createElement("details");d.innerHTML="<summary><span>"+(i+1)+"</span>تختی نمبر "+(i+1)+" – "+t[0]+"</summary><p>"+t[1]+"</p><div class='ex ar wide'>"+t[2]+"</div>";s.appendChild(d)});
+var e=document.createElement("details");e.innerHTML="<summary><span>✓</span>خاتمہ اجرائے قواعد</summary><p>نون ساکن اور تنوین کے قواعد، ادغام، اخفا اور وقف کا خلاصہ۔ ان شاء اللہ اس محنت کے بعد بچہ قرآنِ کریم آسانی سے پڑھ سکے گا۔</p>";s.appendChild(e);
+</script>
+</body>
+</html>
